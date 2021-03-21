@@ -5,12 +5,12 @@ inputs:
   dotnet-version:
     description: The version of the .NET SDK that should be used
     required: true
-    default: 5.0
+    default: '5.0'
 
   cdk-version:
     description: The version of the AWS CDK that should be installed
     required: true
-    default: 1.94.1
+    default: '1.94.1'
 
   cdk-args:
     description: The arguments that should be passed to `cdk` (e.g. `synth`)
