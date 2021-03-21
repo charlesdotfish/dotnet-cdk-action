@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/charlesdotfish/dotnet-cdk-action/raw/v1/media/logo.png" alt="Charles Dot Fish" width="400"></p>
+<p align="center"><a href="https://github.com/charlesdotfish"><img src="https://github.com/charlesdotfish/dotnet-cdk-action/raw/v1/media/logo.png" alt="Charles Dot Fish" width="400"></a></p>
 
 # .NET CDK GitHub Action
 
