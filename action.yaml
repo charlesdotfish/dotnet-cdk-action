@@ -1,0 +1,29 @@
+name: Execute CDK command
+description: Executes a CDK command, permitting this to be executed against a .NET project
+
+inputs:
+  dotnet-version:
+    description: The version of the .NET SDK that should be used
+    required: true
+    default: '5.0'
+
+  cdk-version:
+    description: The version of the AWS CDK that should be installed
+    required: true
+    default: '1.94.1'
+
+  cdk-args:
+    description: The arguments that should be passed to `cdk` (e.g. `synth`)
+    required: true
+
+outputs:
+  cdk-command-output:
+    description: A log of the output from the CDK command that was executed
+
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.dotnet-version }}
+    - ${{ inputs.cdk-version }}
+    - ${{ inputs.cdk-args }}
