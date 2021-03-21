@@ -1,4 +1,4 @@
-name: Execute .NET CDK command
+name: .NET CDK
 description: Executes a CDK command, permitting this to be executed against a .NET project
 author: Charles Salmon
 branding:
