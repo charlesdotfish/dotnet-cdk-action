@@ -2,8 +2,8 @@
 
 # .NET CDK GitHub Action
 
-[![GitHub Issues](https://img.shields.io/github/issues/charlesdotfish/smtp-credentials-cdk-construct.svg)](https://github.com/charlesdotfish/smtp-credentials-cdk-construct/issues/)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/charlesdotfish/smtp-credentials-cdk-construct.svg)](https://github.com/charlesdotfish/smtp-credentials-cdk-construct/pulls/)
+[![GitHub Issues](https://img.shields.io/github/issues/charlesdotfish/dotnet-cdk-action.svg)](https://github.com/charlesdotfish/dotnet-cdk-action/issues/)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/charlesdotfish/dotnet-cdk-action.svg)](https://github.com/charlesdotfish/dotnet-cdk-action/pulls/)
 
 This GitHub action executes a command using the CDK CLI, from within a .NET SDK Docker container, and provides the output of the command as an action output. A subset of the AWS CLI supported environment variables may be used to configure the credentials used by the CDK CLI (those being `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` and `AWS_DEFAULT_REGION`).
 
